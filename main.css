@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 14px;
+    align-items: center;
+    max-width: 2000px;
+    min-width: 100px;
+    flex-wrap: nowrap;
+    
+}
+.head-box1 {
+    display: flex;
+    gap: 200px;
+    font-size: 10px;
+    color: rgb(100, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    align-items: center;
+
+}
+
+.head-btn1 {
+    width: 115px;
+    height: 40px;
+    margin-left: 10px;
+    background-color:transparent;
+    border: 1px solid rgb(25, 114, 247);
+    border-radius: 6px;
+    color:rgb(25, 114, 247); 
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.head-btn2 {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgb(217, 195, 167);
+    color:rgb(25, 114, 247);
+    font-size: 15px;  
+    border: 1px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head-btn3 {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgb(28, 83, 165);
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(52, 55, 59);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.boss {
+    font-size: 30px;
+    color: black;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.boss-txt {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 20px;
+    color: rgb(25, 114, 247);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+.boss-txt2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   cursor: pointer; 
+}
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+.c1-txt1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.c1-txt2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
