@@ -153,6 +153,7 @@
     border: 1px solid transparent;
     margin-bottom: 80px;
     box-shadow: 2px 6px 1px gray;
+    cursor: pointer;
 }
 .box2-txt2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -195,6 +196,7 @@
     box-shadow: 2px 6px 1px gray;
     background-color: rgb(19, 81, 189);
     color: azure;
+    cursor: pointer;
 
 }
 .box2-txt0 {
@@ -221,4 +223,78 @@
     border: 2px solid gray;
     border-radius: 10px;
     padding-top: 45px;
+}
+@media (min-width:0) and (max-width:576px) {
+    .box {
+        width: 97%;
+    }
+    
+}
+.cov1 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 30px;
+    
+}
+.cov2 {
+    display: flex;
+    align-items: center;
+}.cov3 {
+    display: flex;
+    align-items: center;
+}.cov4 {
+    display: flex;
+    align-items: center;
+}.cov5 {
+    display: flex;
+    align-items: center;
+}.cov6 {
+    display: flex;
+    align-items: center;
+}.cov7 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.awesome {
+    color:rgb(38, 117, 207);
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:500;
+    margin-left: 30px;
+    margin-top: 25px;
+    
+}
+.txt1 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 20px;
+  
+}
+.box-btn:hover {
+    box-shadow: 5px 10px 15px rgb(167, 199, 255);
+}
+.box2-btn:hover {
+    box-shadow: 5px 10px 15px rgb(9, 91, 233);
+}
+.head-btn1:hover {
+    box-shadow: 5px 10px 15px rgb(101, 158, 255);  
+   
+}
+.head-btn2:hover {
+    box-shadow: 5px 10px 15px rgb(235, 210, 179);  
+   
+}
+.head-btn3:hover {
+    box-shadow: 3px 8px 13px rgb(9, 91, 233);
+   
+}
+.boss-txt:hover {
+    color: gray;
+}
+.boss-txt2:hover {
+    color: rgb(9, 91, 233);
 }
